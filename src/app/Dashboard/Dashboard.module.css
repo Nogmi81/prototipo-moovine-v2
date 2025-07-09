@@ -1,0 +1,83 @@
+.container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+  background: linear-gradient(to right, #A349A4, #EA3FF7);
+  height: 90vh;
+}
+
+/* .main h1 {
+  font-size: 3.5rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.main p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+} */
+
+.mainDashboard {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  color: white;
+  font-style: italic;
+  font-size: 1.2rem;
+  text-align: center;
+  background: linear-gradient(to right, #FF7F26, #FFA94D);
+  height: 90vh;
+}
+
+.msgDeslogado{  
+  max-width: 700px;
+  max-height: 250px;
+  margin: 50px auto; /* Centraliza na página com margem superior/inferior */
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #A349A4;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);  
+}
+
+.msgDeslogado a{
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #A349A4;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 1.5rem;
+    padding: 5px 15px;
+}
+
+.msgDeslogado a:hover {
+     background-color: #FF7F26;
+}
+
+.loading{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #FFF;
+}
+
+@media (min-width: 768px) {
+  .mainDashboard h1 {
+    font-size: 3.5rem;
+  }
+
+  .mainDashboard p {
+    font-size: 1.5rem;
+  }
+}
+
