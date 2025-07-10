@@ -59,7 +59,7 @@ export default function Header() {
       >
         {user && isDashboard
           ? isMobile
-            ? "Dashboard"
+            ? "moovine"
             : "moovine | Dashboard"
           : "moovine"}
       </Link>
