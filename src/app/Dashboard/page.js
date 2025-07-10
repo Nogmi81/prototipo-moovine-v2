@@ -13,13 +13,18 @@ export default function Dashboard() {
     return (
       <div className={styles.container}>
         <div className={styles.msgDeslogado}>
+          <span className={styles.linkHome}>
+            <Link href="/">
+              Ir pra Home
+            </Link>
+          </span>
           <p>Você não está logado.</p> 
           <p>Para acessar o Dashboard faça login novamente: </p>
-          <br></br><span className={styles.linkLogin}>
+          <p className={styles.linkLogin}>
             <Link href="/Login">
               Login
             </Link>
-          </span>
+          </p>          
         </div>
       </div>
     );
