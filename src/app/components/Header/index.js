@@ -26,7 +26,7 @@ export default function Header() {
       setMobileMenuOpen(false);
       // Redireciona para a Home com um parâmetro de URL indicando logout.
       // Isso é lido pelo Dashboard para decidir se deve exibir a mensagem ou não.
-      router.push("/?logout=true");
+      // router.push("/?logout=true");
     } catch (err) {
       console.error("Erro ao sair:", err.message);
     }
